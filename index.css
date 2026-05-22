@@ -15,10 +15,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.566);
+    background-color: rgb(0, 0, 0);
     height: 10vh;
     padding: 0 60px;
-    position: fixed;
+    position: sticky;
     width: 100%;
     z-index: 1;
 }
@@ -176,4 +176,94 @@ body {
 .button2:hover {
     background-color: white;
     color: black;
+}
+
+.footer {
+    margin: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.container-detail {
+    width: 70%;
+}
+
+.ul-detail {
+    list-style-type: none;
+    font-family: 'inter', sans-serif;
+    line-height: 2.5;
+}
+
+.li-judul {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    margin-bottom: 8px;
+}
+
+.verbar-detail {
+    color: darkorange;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.li-detail {
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.a-detail {
+    font-weight: normal;
+    word-spacing: 5px;
+    margin: 0 10px;
+}
+
+.a-detail:hover {
+    color: rgb(0, 0, 136);
+    transition: 0.3s
+}
+
+.over-detail {
+    font-weight: 400;
+    text-decoration: none;
+    color: gray;
+    margin-left: auto;
+    transform: scale(1, 1.5);
+}
+
+.container-more {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.a-more {
+    text-decoration: none;
+    color: black;
+}
+
+.over-more {
+    font-weight: 600;
+    color: black;    
+    margin-left: 5px;
+    transform: scale(0.8, 1.5);
+    display: inline-block;
+}
+
+.span-more:hover .over-more {
+    color: darkorange;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.span-more {
+    font-size: 1.5rem;
+    margin-left: 30%;
+    font-weight: bold;
 }
