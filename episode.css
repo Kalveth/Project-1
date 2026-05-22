@@ -9,6 +9,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
     overflow-x: hidden;
+    
 }
 
 .container-navbar {
@@ -18,9 +19,9 @@ body {
     background-color: rgb(0, 0, 0);
     height: 10vh;
     padding: 0 60px;
-    position: fixed;
+    position: sticky;
     width: 100%;
-    z-index: 1;
+    z-index: 86;
 }
 
 .left-navbar {
