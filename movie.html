@@ -6,13 +6,16 @@
     <title>Evangelion</title>
     <link rel="stylesheet" href="movie.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header class="container-navbar">
         <div class="left-navbar">
-            <a href="index.html" class="a-navbar">Home</a></li>
+            <a href="#" class="a-navbar">Home</a></li>
             <a href="episode.html" class="a-navbar">TV Series</a></li>
-            <a href="#" class="a-navbar">Movies</a></li>
+            <a href="movie.html" class="a-navbar">Movies</a></li>
         </div>
         <img src="evangelion-logo.png" class="img-navbar">
         <div class="right-navbar">
@@ -24,7 +27,71 @@
             <a href="#" class="login-navbar">Login</a>
         </div>
     </header>
-    <main class="container-content">
+    <header class="container-header">
+        <div class="container-left">
+        <img src="foto/poster.jpg" alt="" class="img-header">
+        <div class="left-header">
+            <h3 class="h3-header">Shinseiki Evangelion</h3>
+            <h1 class="h1-header">Movie list</h1>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-movie">
+            
+            <a href="#awal" class="btn-movie left">&lt;</a>
+
+            <div class="slider-movie">
+            <!-- 1 -->
+            <a href="#" class="a-movie" id="awal">
+            <div class="box-movie">
+                <img src="foto/movie0.jpg" alt="" class="img-movie">
+                <p class="p-movie">Death and Rebirth</p>
+            </div>
+            </a>
+
+             <a href="#" class="a-movie">
+            <div class="box-movie">
+                <img src="foto/movie1.jpg" alt="" class="img-movie">
+                <p class="p-movie">The End of Evangelion</p>
+            </div>
+            </a>
+
+             <a href="#" class="a-movie">
+            <div class="box-movie">
+                <img src="foto/movie1-0.jpg" alt="" class="img-movie">
+                <p class="p-movie">1.0 You Are (Not) Alone</p>
+            </div>
+            </a>
+
+             <a href="#" class="a-movie">
+            <div class="box-movie">
+                <img src="foto/movie2-0.jpg" alt="" class="img-movie">
+                <p class="p-movie">2.0 You Can (Not) Advance</p>
+            </div>
+            </a>
+
+             <a href="#" class="a-movie">
+            <div class="box-movie">
+                <img src="foto/movie3-0.jpg" alt="" class="img-movie">
+                <p class="p-movie">3.0 You Can (Not) Redo</p>
+            </div>
+            </a>
+
+             <a href="#" class="a-movie" id="akhir">
+            <div class="box-movie">
+                <img src="foto/movie3-1.jpg" alt="" class="img-movie">
+                <p class="p-movie">3.0+1.0 Thrice Upon a Time</p>
+            </div>
+            </a>
+            </div>
+
+            <a href="#akhir" class="btn-movie right">&gt;</a>
+
+        </div>
     </main>
+    <div class="index-last">
+        <p class="last-p">&copy; Kalveth &middot; 2026</p>
+    </div>
 </body>
 </html>
