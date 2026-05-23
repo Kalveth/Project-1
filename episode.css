@@ -96,6 +96,41 @@ body {
 }
 /* --- */
 
+.container-header {
+    display: flex;
+    position: relative;
+    background: linear-gradient(90deg, rgb(31, 31, 31), 30%, rgba(41, 41, 41, 0.9), 80%, rgb(31, 31, 31));
+}
+
+.container-left {
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.left-header {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-header {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.h3-header {
+    color: gray;
+    font-weight: bold;
+}
+
+.h1-header {
+    color: white;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
 .container-content {
     width: 98%;
     margin: 30px auto;

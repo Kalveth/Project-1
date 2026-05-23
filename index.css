@@ -267,3 +267,11 @@ body {
     margin-left: 30%;
     font-weight: bold;
 }
+
+.index-last {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
