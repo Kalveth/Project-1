@@ -99,7 +99,7 @@ body {
 .container-header {
     display: flex;
     position: relative;
-    background: linear-gradient(90deg, rgb(31, 31, 31), 30%, rgba(41, 41, 41, 0.9), 80%, rgb(31, 31, 31));
+    background: linear-gradient(135deg, rgb(0, 0, 30) 0%, rgb(37, 12, 12) 40%, rgb(0, 0, 0) 100%);
 }
 
 .container-left {
