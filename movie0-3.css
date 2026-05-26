@@ -9,6 +9,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
     overflow-x: hidden;
+    cursor: default;
 }
 
 .container-navbar {
@@ -119,6 +120,7 @@ body {
 
 .year-movie {
     color: rgb(190, 190, 190);
+    cursor: default;
 }
 
 .container-next {
@@ -174,9 +176,11 @@ body {
 }
 
 .genre-movie {
+    grid-column: 1;
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 15px;
     color: white;
 }
 
@@ -191,3 +195,115 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+.container-detail {
+    grid-column: 1;
+    width: 100%;
+}
+
+.ul-detail {
+    list-style-type: none;
+    font-family: 'inter', sans-serif;
+}
+
+.desk-detail {
+    border-bottom: 1px solid rgb(208, 208, 208);
+    margin-bottom: 8px;
+}
+
+.p-detail {
+    color: white;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+.verbar-detail {
+    color: darkorange;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.li-detail {
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    display: flex;
+    line-height: 2.5;
+    margin: 8px 0;
+    color: white;
+}
+
+.a-detail {
+    font-weight: normal;
+    word-spacing: 5px;
+    margin: 0 10px;
+    color: #4895ef;
+}
+
+.a-detail:hover {
+    color: #4361ee;
+    transition: 0.3s
+}
+
+.over-detail {
+    font-weight: 400;
+    text-decoration: none;
+    color: gray;
+    margin-left: auto;
+    transform: scale(1, 1.5);
+}
+
+.isi {
+    display: grid;
+    grid-template-columns: 70% 30%; 
+}
+
+.container-form {
+    grid-column: 2;
+    grid-row: 1 /span  2; 
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    height: 100%; 
+    margin-left: 15px;
+    padding: 15px 20px;
+    cursor: default;
+}
+
+.judul-form {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.verbar-form {
+    color: darkorange;
+}
+
+.form {
+   gap: 5px;
+   flex-direction: column;
+   display: flex;
+}
+
+.email-form {
+    width: 50%;
+}
+
+.text-form {
+    height: 100px;
+}
+
+.button-form {
+    padding: 2px;
+    cursor: pointer;
+}
+
+.index-last {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
